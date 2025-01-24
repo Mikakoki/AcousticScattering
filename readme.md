@@ -14,13 +14,13 @@ This repository showcases Mathematica code for recoding this [article](https://j
 
 ### Scattering of a Cylinder Object
 The first problem we have to solve is the acoustic wave equation scattering from a cylinder.
-\begin{equation}
+$$
 \left(\nabla^2-\frac{1}{c^2} \frac{\partial^2}{\partial t^2}\right) p=0
-\end{equation}
+$$
 writing the equation in cylindrical coordinates and pertaining the variables to $p(r,\phi,z,t) = R(r) \Phi (\phi) Z(z) T(t)$, we rewrite the wave equation as 
-\begin{equation}
+$$
 \frac 1R \frac{\partial^2 R}{\partial r^2}+\frac{1}{R r} \frac{\partial R}{\partial r}+\frac{1}{r^2 \Phi} \frac{\partial^2 \Phi}{\partial \phi^2}+\frac 1Z \frac{\partial^2 Z}{\partial z^2}	= \frac{1}{c^2 T} \frac{\partial^2 T}{\partial t^2}
-\end{equation}
+$$
 in which; 
 $$\frac 1Z \frac{\partial^2 Z}{\partial z^2}= -k_z^2$$
 $$\frac{1}{c^2 T} \frac{\partial^2 T}{\partial t^2} = -k^2$$
