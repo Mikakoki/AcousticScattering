@@ -1,17 +1,14 @@
-# Mathematica Code Repository
+# Redirection and Splitting of Sound Waves by a Periodic Chain of Thin Perforated Cylindrical Shells
 
 ## Overview
-This repository showcases Mathematica code examples and demonstrations.
+This repository showcases Mathematica code for recoding this [article](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.7.064034). 
 
 ## Contents
-- Visualization scripts
+- Theoretical Analysis
 - Mathematical computations
 - Plotting examples
+- Errors of the Code
 
-## Running the Code
-1. Ensure Mathematica is installed
-2. Open notebooks directly
-3. Run code snippets
 
 ## Example Codes
 
@@ -25,11 +22,7 @@ Plot[Sin[x], {x, 0, 2 Pi}]
 Integrate[x^2, x]
 ```
 
-## Website
-Visit the GitHub Pages site for a web-friendly view of the code.
 
-## License
-[Choose an appropriate license]
+## References
+\bibliography{reference.bib}
 
-## Contact
-[Your contact information]
